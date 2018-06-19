@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC8AAF920D8FF910073F96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8AAF820D8FF910073F96B /* AppDelegate.swift */; };
+		DBC8AAFB20D8FF910073F96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8AAFA20D8FF910073F96B /* ViewController.swift */; };
+		DBC8AAFE20D8FF910073F96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC8AAFC20D8FF910073F96B /* Main.storyboard */; };
+		DBC8AB0020D8FF910073F96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC8AAFF20D8FF910073F96B /* Assets.xcassets */; };
+		DBC8AB0320D8FF910073F96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC8AB0120D8FF910073F96B /* LaunchScreen.storyboard */; };
+		DBC8AB0E20D8FF910073F96B /* DemoRadioButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8AB0D20D8FF910073F96B /* DemoRadioButtonTests.swift */; };
+		DBC8AB1920D8FF910073F96B /* DemoRadioButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC8AB1820D8FF910073F96B /* DemoRadioButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC8AB0A20D8FF910073F96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC8AAED20D8FF910073F96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC8AAF420D8FF910073F96B;
+			remoteInfo = DemoRadioButton;
+		};
+		DBC8AB1520D8FF910073F96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC8AAED20D8FF910073F96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC8AAF420D8FF910073F96B;
+			remoteInfo = DemoRadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBC8AAF520D8FF910073F96B /* DemoRadioButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoRadioButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8AAF820D8FF910073F96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC8AAFA20D8FF910073F96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBC8AAFD20D8FF910073F96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC8AAFF20D8FF910073F96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC8AB0220D8FF910073F96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC8AB0420D8FF910073F96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC8AB0920D8FF910073F96B /* DemoRadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoRadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8AB0D20D8FF910073F96B /* DemoRadioButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRadioButtonTests.swift; sourceTree = "<group>"; };
+		DBC8AB0F20D8FF910073F96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC8AB1420D8FF910073F96B /* DemoRadioButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoRadioButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC8AB1820D8FF910073F96B /* DemoRadioButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRadioButtonUITests.swift; sourceTree = "<group>"; };
+		DBC8AB1A20D8FF910073F96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC8AAF220D8FF910073F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8AB0620D8FF910073F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8AB1120D8FF910073F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC8AAEC20D8FF910073F96B = {
+			isa = PBXGroup;
+			children = (
+				DBC8AAF720D8FF910073F96B /* DemoRadioButton */,
+				DBC8AB0C20D8FF910073F96B /* DemoRadioButtonTests */,
+				DBC8AB1720D8FF910073F96B /* DemoRadioButtonUITests */,
+				DBC8AAF620D8FF910073F96B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC8AAF620D8FF910073F96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8AAF520D8FF910073F96B /* DemoRadioButton.app */,
+				DBC8AB0920D8FF910073F96B /* DemoRadioButtonTests.xctest */,
+				DBC8AB1420D8FF910073F96B /* DemoRadioButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC8AAF720D8FF910073F96B /* DemoRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8AAF820D8FF910073F96B /* AppDelegate.swift */,
+				DBC8AAFA20D8FF910073F96B /* ViewController.swift */,
+				DBC8AAFC20D8FF910073F96B /* Main.storyboard */,
+				DBC8AAFF20D8FF910073F96B /* Assets.xcassets */,
+				DBC8AB0120D8FF910073F96B /* LaunchScreen.storyboard */,
+				DBC8AB0420D8FF910073F96B /* Info.plist */,
+			);
+			path = DemoRadioButton;
+			sourceTree = "<group>";
+		};
+		DBC8AB0C20D8FF910073F96B /* DemoRadioButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8AB0D20D8FF910073F96B /* DemoRadioButtonTests.swift */,
+				DBC8AB0F20D8FF910073F96B /* Info.plist */,
+			);
+			path = DemoRadioButtonTests;
+			sourceTree = "<group>";
+		};
+		DBC8AB1720D8FF910073F96B /* DemoRadioButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC8AB1820D8FF910073F96B /* DemoRadioButtonUITests.swift */,
+				DBC8AB1A20D8FF910073F96B /* Info.plist */,
+			);
+			path = DemoRadioButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC8AAF420D8FF910073F96B /* DemoRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8AB1D20D8FF910073F96B /* Build configuration list for PBXNativeTarget "DemoRadioButton" */;
+			buildPhases = (
+				DBC8AAF120D8FF910073F96B /* Sources */,
+				DBC8AAF220D8FF910073F96B /* Frameworks */,
+				DBC8AAF320D8FF910073F96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoRadioButton;
+			productName = DemoRadioButton;
+			productReference = DBC8AAF520D8FF910073F96B /* DemoRadioButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC8AB0820D8FF910073F96B /* DemoRadioButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8AB2020D8FF910073F96B /* Build configuration list for PBXNativeTarget "DemoRadioButtonTests" */;
+			buildPhases = (
+				DBC8AB0520D8FF910073F96B /* Sources */,
+				DBC8AB0620D8FF910073F96B /* Frameworks */,
+				DBC8AB0720D8FF910073F96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC8AB0B20D8FF910073F96B /* PBXTargetDependency */,
+			);
+			name = DemoRadioButtonTests;
+			productName = DemoRadioButtonTests;
+			productReference = DBC8AB0920D8FF910073F96B /* DemoRadioButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC8AB1320D8FF910073F96B /* DemoRadioButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC8AB2320D8FF910073F96B /* Build configuration list for PBXNativeTarget "DemoRadioButtonUITests" */;
+			buildPhases = (
+				DBC8AB1020D8FF910073F96B /* Sources */,
+				DBC8AB1120D8FF910073F96B /* Frameworks */,
+				DBC8AB1220D8FF910073F96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC8AB1620D8FF910073F96B /* PBXTargetDependency */,
+			);
+			name = DemoRadioButtonUITests;
+			productName = DemoRadioButtonUITests;
+			productReference = DBC8AB1420D8FF910073F96B /* DemoRadioButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC8AAED20D8FF910073F96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Đừng xóa";
+				TargetAttributes = {
+					DBC8AAF420D8FF910073F96B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DBC8AB0820D8FF910073F96B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC8AAF420D8FF910073F96B;
+					};
+					DBC8AB1320D8FF910073F96B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBC8AAF420D8FF910073F96B;
+					};
+				};
+			};
+			buildConfigurationList = DBC8AAF020D8FF910073F96B /* Build configuration list for PBXProject "DemoRadioButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC8AAEC20D8FF910073F96B;
+			productRefGroup = DBC8AAF620D8FF910073F96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC8AAF420D8FF910073F96B /* DemoRadioButton */,
+				DBC8AB0820D8FF910073F96B /* DemoRadioButtonTests */,
+				DBC8AB1320D8FF910073F96B /* DemoRadioButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC8AAF320D8FF910073F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8AB0320D8FF910073F96B /* LaunchScreen.storyboard in Resources */,
+				DBC8AB0020D8FF910073F96B /* Assets.xcassets in Resources */,
+				DBC8AAFE20D8FF910073F96B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8AB0720D8FF910073F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8AB1220D8FF910073F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC8AAF120D8FF910073F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8AAFB20D8FF910073F96B /* ViewController.swift in Sources */,
+				DBC8AAF920D8FF910073F96B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8AB0520D8FF910073F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8AB0E20D8FF910073F96B /* DemoRadioButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC8AB1020D8FF910073F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC8AB1920D8FF910073F96B /* DemoRadioButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC8AB0B20D8FF910073F96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC8AAF420D8FF910073F96B /* DemoRadioButton */;
+			targetProxy = DBC8AB0A20D8FF910073F96B /* PBXContainerItemProxy */;
+		};
+		DBC8AB1620D8FF910073F96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC8AAF420D8FF910073F96B /* DemoRadioButton */;
+			targetProxy = DBC8AB1520D8FF910073F96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC8AAFC20D8FF910073F96B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC8AAFD20D8FF910073F96B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC8AB0120D8FF910073F96B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC8AB0220D8FF910073F96B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC8AB1B20D8FF910073F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC8AB1C20D8FF910073F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC8AB1E20D8FF910073F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hhuyy.DemoRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC8AB1F20D8FF910073F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoRadioButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hhuyy.DemoRadioButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBC8AB2120D8FF910073F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoRadioButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hhuyy.DemoRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoRadioButton.app/DemoRadioButton";
+			};
+			name = Debug;
+		};
+		DBC8AB2220D8FF910073F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoRadioButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hhuyy.DemoRadioButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoRadioButton.app/DemoRadioButton";
+			};
+			name = Release;
+		};
+		DBC8AB2420D8FF910073F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hhuyy.DemoRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoRadioButton;
+			};
+			name = Debug;
+		};
+		DBC8AB2520D8FF910073F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DemoRadioButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hhuyy.DemoRadioButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoRadioButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC8AAF020D8FF910073F96B /* Build configuration list for PBXProject "DemoRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8AB1B20D8FF910073F96B /* Debug */,
+				DBC8AB1C20D8FF910073F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8AB1D20D8FF910073F96B /* Build configuration list for PBXNativeTarget "DemoRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8AB1E20D8FF910073F96B /* Debug */,
+				DBC8AB1F20D8FF910073F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8AB2020D8FF910073F96B /* Build configuration list for PBXNativeTarget "DemoRadioButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8AB2120D8FF910073F96B /* Debug */,
+				DBC8AB2220D8FF910073F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC8AB2320D8FF910073F96B /* Build configuration list for PBXNativeTarget "DemoRadioButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC8AB2420D8FF910073F96B /* Debug */,
+				DBC8AB2520D8FF910073F96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC8AAED20D8FF910073F96B /* Project object */;
+}
